@@ -1,0 +1,45 @@
+
+=============== 文  档 ==================
+
+*规则: 搜狐新闻-新闻中心-国际新闻-国际要闻
+  入  口  URL: http://news.sohu.com/1/0903/62/subject212846267.shtml
+  数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=dbb23eef-fe45-47ec-9658-64293ce632e6&from=｛开始时间｝&to=｛结束时间｝
+  时间格式: YYYY-MM-dd HH:mm:ss
+  
+*规则: 搜狐新闻-新闻中心-国际新闻-国际要闻_评论
+   入  口  URL: http://news.sohu.com/1/0903/62/subject212846267.shtml
+   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=1209b0f7-e4a4-4468-b4c6-ac35b595144c&from=｛开始时间｝&to=｛结束时间｝
+   时间格式: YYYY-MM-dd HH:mm:ss
+   
+   
+  
+  
+  
+* 文章数据表字段说明
+    
+	字段名         字段符号
+  ------------------------------------
+	文章标题       articleTitle     
+	文章发布时间   publishTime      
+	文章来源       author            
+	文章原标题     rawTitle
+	文章内容       articleContents
+	评论数         commentCount
+	文章链接       articleRawUrl
+	爬取时间       crawlTime
+	
+	
+* 文章评论表字段说明
+
+	字段名         字段符号
+  ------------------------------------
+    文章链接       articleRawUrl
+	爬取时间       crawlTime
+	头像链接       imgSrcUrl
+	评论者         author
+	地域           local
+	评论时间       time
+	评论内容       contents
+	点赞数         likesCount
+  
+  
