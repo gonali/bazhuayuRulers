@@ -5,16 +5,81 @@
   入  口  URL: http://news.sohu.com/1/0903/62/subject212846267.shtml
   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=dbb23eef-fe45-47ec-9658-64293ce632e6&from=｛开始时间｝&to=｛结束时间｝
   时间格式: YYYY-MM-dd HH:mm:ss
+  定时云爬取时间: 每天 10:00
   
 *规则: 搜狐新闻-新闻中心-国际新闻-国际要闻_评论
    入  口  URL: http://news.sohu.com/1/0903/62/subject212846267.shtml
    数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=1209b0f7-e4a4-4468-b4c6-ac35b595144c&from=｛开始时间｝&to=｛结束时间｝
    时间格式: YYYY-MM-dd HH:mm:ss
+   定时云爬取时间: 每天 10:00
    
-   
+* 规则: 搜狐新闻-新闻中心-国际新闻-国际要闻_文章图片链接
+  入  口  URL: http://news.sohu.com/1/0903/62/subject212846267.shtml
+  数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=017ff340-58ff-46e3-81cf-12832c42515f&from=｛开始时间｝&to=｛结束时间｝
+  时间格式: YYYY-MM-dd HH:mm:ss
+  定时云爬取时间: 每天 10:00
+
+----------------------------------------------------------------------------------
   
+* 规则: 搜狐新闻-国内新闻-国内要闻
+  入  口  URL: http://news.sohu.com/1/0903/61/subject212846158.shtml
+  数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=68936923-7603-4467-b086-41cad2976658&from=｛开始时间｝&to=｛结束时间｝
+  时间格式: YYYY-MM-dd HH:mm:ss
+  定时云爬取时间: 每天 11:00
   
+* 规则: 搜狐新闻-国内新闻-国内要闻_评论
+  入  口  URL: http://news.sohu.com/1/0903/61/subject212846158.shtml
+  数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=7c0f2f4d-eb91-4efc-9328-1276f6c45cb3&from=｛开始时间｝&to=｛结束时间｝
+  时间格式: YYYY-MM-dd HH:mm:ss
+  定时云爬取时间: 每天 11:00
   
+* 规则: 搜狐新闻-国内新闻-国内要闻_文章图片链接
+  入  口  URL: http://news.sohu.com/1/0903/61/subject212846158.shtml
+  数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=d968a669-124a-4866-8342-54ceb43ff975&from=｛开始时间｝&to=｛结束时间｝
+  时间格式: YYYY-MM-dd HH:mm:ss
+  定时云爬取时间: 每天 11:00
+  
+-----------------------------------------------------------------------------------------
+
+* 规则: 搜狐新闻-国内新闻-国内要闻-港澳台
+  入  口  URL: http://news.sohu.com/s2005/gangaotai.shtml
+  数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=3c0b67b6-692a-4f14-a7a3-467a6619fc42&from=｛开始时间｝&to=｛结束时间｝
+  时间格式: YYYY-MM-dd HH:mm:ss
+  定时云爬取时间: 每天 11:00
+  
+* 规则: 搜狐新闻-国内新闻-国内要闻-港澳台_评论
+  入  口  URL: http://news.sohu.com/s2005/gangaotai.shtml
+  数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=3f8c1dbd-5e79-43a5-a0f7-1068a4bbb31b&from=｛开始时间｝&to=｛结束时间｝
+  时间格式: YYYY-MM-dd HH:mm:ss
+  定时云爬取时间: 每天 11:00
+  
+* 规则: 搜狐新闻-国内新闻-国内要闻-港澳台_文章图片链接
+  入  口  URL: http://news.sohu.com/s2005/gangaotai.shtml
+  数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=e49bc74b-ea28-4705-85d3-01db03ad60eb&from=｛开始时间｝&to=｛结束时间｝
+  时间格式: YYYY-MM-dd HH:mm:ss
+  定时云爬取时间: 每天 11:00
+
+------------------------------------------------------------------------------------------
+
+* 规则: 搜狐新闻-国内新闻-国内要闻-时事
+  入  口  URL: http://news.sohu.com/s2005/shishi.shtml
+  数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=dd67937c-2ea7-4643-9a5c-6a464f4d3b17&from=｛开始时间｝&to=｛结束时间｝
+  时间格式: YYYY-MM-dd HH:mm:ss
+  定时云爬取时间: 每天 11:00
+  
+* 规则: 搜狐新闻-国内新闻-国内要闻-时事_评论
+  入  口  URL: http://news.sohu.com/s2005/shishi.shtml
+  数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=a9c8e09b-bb8c-4d1a-bca3-680bf8ee3de5&from=｛开始时间｝&to=｛结束时间｝
+  时间格式: YYYY-MM-dd HH:mm:ss
+  定时云爬取时间: 每天 11:00
+  
+* 规则: 搜狐新闻-国内新闻-国内要闻-时事_文章图片链接
+  入  口  URL: http://news.sohu.com/s2005/shishi.shtml
+  数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=44d32e30-ff8a-4656-9972-9be866455dc8&from=｛开始时间｝&to=｛结束时间｝
+  时间格式: YYYY-MM-dd HH:mm:ss
+  定时云爬取时间: 每天 11:00
+  
+================================================================  
 * 文章数据表字段说明
     
 	字段名         字段符号
@@ -42,4 +107,16 @@
 	评论内容       contents
 	点赞数         likesCount
   
+  
+* 文章图片链接表字段说明
+  
+	字段名         字段符号
+  ------------------------------------
+    文章链接       articleRawUrl
+	爬取时间       crawlTime
+	文章标题       articleTitle
+	图片地址       imgSrcUrl
+
+
+
   
