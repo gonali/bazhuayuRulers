@@ -1,0 +1,88 @@
+
+============== 文档 =====================
+
+* 规则: 百度热点-今日热点
+   入口URL: http://top.baidu.com/buzz?b=341&c=513&fr=topbuzz_b1_c513
+   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=03c50aa8-8fdd-4e61-a726-c368cc846659&from=｛开始时间｝&to=｛结束时间｝
+  
+* 规则: 百度热点-今日热点-文章信息
+   入口URL: http://top.baidu.com/buzz?b=341&c=513&fr=topbuzz_b1_c513
+   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=78632908-149e-47c1-9587-7c482e49e532&from=｛开始时间｝&to=｛结束时间｝
+  
+----------------------------------------------------------------
+
+* 规则: 百度热点-民生热点
+   入口URL: http://top.baidu.com/buzz?b=342&c=513&fr=topbuzz_b42_c513
+   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=0f062e87-4283-4aac-82eb-756b4c3c8f9b&from=｛开始时间｝&to=｛结束时间｝
+  
+* 规则: 百度热点-民生热点-文章信息
+   入口URL: http://top.baidu.com/buzz?b=342&c=513&fr=topbuzz_b42_c513
+   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=42793fe6-bd8f-4808-8ee0-06ca19e006d3&from=｛开始时间｝&to=｛结束时间｝
+  
+-------------------------------------------------------------------  
+
+* 规则: 百度热点-七日热点
+   入口URL: http://top.baidu.com/buzz?b=42&c=513&fr=topbuzz_b341_c513
+   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=9a91078e-b9f5-4693-8181-73837a267fdd&from=｛开始时间｝&to=｛结束时间｝
+  
+* 规则: 百度热点-七日热点-文章信息
+   入口URL: http://top.baidu.com/buzz?b=42&c=513&fr=topbuzz_b341_c513
+   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=ac9d07a6-5811-415c-a2a8-91acca51995c&from=｛开始时间｝&to=｛结束时间｝
+
+--------------------------------------------------------------------------
+
+* 规则: 百度热点-实时热点
+   入口URL: http://top.baidu.com/buzz?b=1&c=513&fr=topcategory_c513
+   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=b9400493-5f73-4cbf-9043-e3e0763c1571&from=｛开始时间｝&to=｛结束时间｝
+  
+* 规则: 百度热点-实时热点-文章信息
+   入口URL: http://top.baidu.com/buzz?b=1&c=513&fr=topcategory_c513
+   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=a83c196f-c3a9-4924-992d-9fb36d0b9125&from=｛开始时间｝&to=｛结束时间｝
+
+-----------------------------------------------------------------------------
+
+* 规则: 百度热点-体育热点
+   入口URL: http://top.baidu.com/buzz?b=11&c=513&fr=topbuzz_b11_c513
+   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=8d247f37-27cd-40f4-9741-a35f4b8ed14e&from=｛开始时间｝&to=｛结束时间｝
+  
+* 规则: 百度热点-体育热点-文章信息
+   入口URL: http://top.baidu.com/buzz?b=11&c=513&fr=topbuzz_b11_c513
+   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=77afc1b9-6e05-42ad-9066-c5113468f2b6&from=｛开始时间｝&to=｛结束时间｝
+
+----------------------------------------------------------------------
+
+* 规则: 百度热点-娱乐热点
+   入口URL: http://top.baidu.com/buzz?b=344&c=513&fr=topbuzz_b342_c513
+   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=ec2c57d8-1769-460d-972d-2f1e36db5e05&from=｛开始时间｝&to=｛结束时间｝
+  
+* 规则: 百度热点-娱乐热点-文章信息
+   入口URL: http://top.baidu.com/buzz?b=344&c=513&fr=topbuzz_b342_c513
+   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=938e7965-efb5-4615-b74d-808c8538195f&from=｛开始时间｝&to=｛结束时间｝
+
+
+=====================================================
+
+* 热点表字段说明
+    
+	字段名           字段符号
+  ------------------------------------
+	热点排名         topNo
+    关键词           keywords
+    搜索指数         searchIndex
+    关键词搜索链接	 searchUrl
+	爬取时间         crawlTime
+	
+
+* 热点文章概要表字段说明
+    
+	字段名           字段符号
+  ------------------------------------
+    关键词          keywords
+	文章标题        articleTitle
+	文章链接        articleRawUrl
+	文章概要        essential
+	发布时间        publishTime
+	爬取时间        crawlTime
+	
+	
+
