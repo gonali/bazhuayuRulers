@@ -1,0 +1,31 @@
+
+===================== 文档 ====================
+
+* 规则: 搜狗微信-公众号-多彩贵州网
+   入口URL: http://weixin.sogou.com/
+   数据提取API: http://dataapi.skieer.com/SkieerDataAPI/GetData?key=e8d87be6-d998-4f23-97a1-cfa97728d36d&from=｛开始时间｝&to=｛结束时间｝
+
+----------------------------------------------
+
+* 规则: 搜狗微信-公众号-贵州发布
+   入口URL: http://weixin.sogou.com/
+   数据提取API: 
+
+   
+   
+   
+=======================
+
+* 爬取数据表字段说明
+
+	字段名              字段符号
+  ------------------------------------
+    微信名称            weChatName 
+	微信号              weChatNo
+	账号主体            mainGroup
+	功能介绍            essential
+	爬取时间            crawlTime
+	文章标题            articleTitle
+	发布时间            publishTime
+	带格式的文章内容    articleStyleContents       
+	
